@@ -11,7 +11,7 @@ import EditChirpFormContainer from './chirps/edit_chirp_form_container';
 import ChirpFormContainer from './chirps/chirp_form_container';
 
 const App = () => (
-    <div>
+    <div className="page-container">
 
         <NavBarContainer />
 

@@ -1,7 +1,10 @@
 @import './variables';
 
 .footer_container {
-    min-height: 100px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 2.5rem;
     //background: rgb(224, 224, 224);
     background: $mainColor;
     display: flex;
