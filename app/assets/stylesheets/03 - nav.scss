@@ -1,0 +1,49 @@
+@import './variables';
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: $mainColor;
+    align-items: center;
+    
+
+    .user-info {
+        display: flex;
+        color: white;
+        
+        h3 {
+            padding: 10px;
+        }
+    }
+
+    .login-buttons {
+        padding-right: 70px;
+    }
+
+    .btn {
+        color: white;
+        font-family: 'Fredoka One', cursive;
+        padding: 10px;
+        text-decoration: none;
+        margin-left: 5px;
+    }
+
+    .btn:hover {
+        border-bottom: 1px solid white;
+    }
+
+    .logo {
+        font-family:'Fredoka One', cursive;;
+        font-weight: bolder;
+        padding-left: 90px;
+        color: white;
+        border-radius: 20px;
+        font-size:55px;
+    }
+
+}
+
+.user_profile_link {
+    font-family: $mainFont;
+}

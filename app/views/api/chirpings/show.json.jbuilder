@@ -1,0 +1,1 @@
+json.partial! 'api/chirpings/chirp', chirp: @chirp 

@@ -1,0 +1,57 @@
+@import './variables';
+
+.login-form-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 480px;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form-box {
+    height: auto;
+    width: 400px;
+    border-radius: 10px;
+    background: $mainColor;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    h3 {
+        font-size: 20px;
+        margin-top:10px;
+        color: white;
+    }
+
+    label {
+        padding: 10px;
+        display: block;
+        color: white;
+        
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="email"] {
+        display: block;
+        background: white;
+        border: 1px solid rgb(107, 107, 107);
+        border-radius: 10px;
+        padding: 5px;
+        margin-top: 2px;
+        width: 300px;
+        color: black;
+    }
+
+    input[type="submit"] {
+        display: block;
+        padding: 10px;
+        margin: 20px;
+        border: 1px solid black;
+        border-radius: 10px;
+        background: rgb(31, 85, 167);
+        color: white;
+    }
+}

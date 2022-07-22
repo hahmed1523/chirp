@@ -1,0 +1,99 @@
+@import './variables';
+
+.user_page_container {
+    min-height: 480px;
+    border: 1px solid blue;
+}
+
+.user_profile_container {
+    width: 60%;
+    margin: auto;
+
+    background: white;
+    border: solid black;
+    border-width: 0px 1px 1px 1px;
+}
+
+.user_info_section {
+    min-height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user_info_left_side {
+    padding: 10px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .joined_date {
+        color: rgb(51, 51, 51);
+        font-size: 16px;
+    }
+}
+
+.user_info {
+    h3 {
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    p {
+        color: rgb(77, 75, 75);
+    }
+}
+
+.follower_info {
+    display: flex;
+
+    strong {
+        font-weight: bold;
+        color: black;
+    }
+
+    li {
+        padding-right: 20px;
+        font-size: 14px;
+        color:rgb(51, 51, 51);
+    }
+}
+
+.follow_btn_section {
+
+    margin-right: 40px;
+}
+
+.user_follow_btn {
+    background: $mainColor;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 50px;
+
+}
+
+.user_chirps_section {
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    h2 {
+        text-align: center;
+        font-family: $mainFont;
+        font-size: 24px;
+        color: $mainColor;
+    }
+
+    .chirp_index_list {
+        width: 90%;
+    }
+}
+
+.user_profile_form {
+    margin-top: 20px;
+}

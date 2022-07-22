@@ -1,0 +1,48 @@
+@import './variables';
+
+
+.chirp-form {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+
+    form {
+        display: flex;
+        flex-direction: column;
+
+        textarea {
+            border: 1px solid black;
+            border-radius: 20px;
+            background: white;
+            margin-bottom: 20px;
+            padding: 10px;
+            font-size: 18px;
+        }
+
+        input[type="submit"] {
+            width: 60px;
+            background: $mainColor;
+            color: white;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+            text-align: center;
+            padding: 10px;
+        }
+    }
+}
+
+.edit_form_section {
+    
+    min-height: 440px;
+
+
+    h2 {
+        text-align: center;
+        font-family: $mainFont;
+        font-size: 24px;
+        color: $mainColor;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}
